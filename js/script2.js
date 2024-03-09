@@ -51,7 +51,7 @@ if (selectedNumber !== 15) {
 }
 
 /*Question 7*/
-var dayOfTheWeek = 2;
+var dayOfTheWeek = 5;
 var dayName;
 
 switch (dayOfTheWeek) {
@@ -61,32 +61,32 @@ switch (dayOfTheWeek) {
     break;
 
     case 2:
-    day = "Tuesday";
+    dayName = "Tuesday";
     break;
 
     case 3:
-    day = "Wednesday";
+    dayName = "Wednesday";
     break;
 
     case 4:
-    day = "Thursday";
+    dayName = "Thursday";
     break;
 
     case 5:
-    day = "Friday";
+    dayName = "Friday";
     break;
 
     case 6:
-    day = "Saturday";
+    dayName = "Saturday";
     break;
 
     case 7:
-    day = "Sunday";
+    dayName = "Sunday";
     break;
 
     default:
-        dayName = "Invalid day number"
-        break;
+    dayName = "Invalid day number"
+    break;
     }
 
 
