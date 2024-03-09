@@ -91,3 +91,20 @@ switch (dayOfTheWeek) {
 
 
     console.log(dayName)
+
+  /*Question 1 Loops*/
+for (var i = 0; i<= 7; i++) {
+    console.log(i);
+}
+
+  /*Question 2 Loops*/
+  for (var i = 10; i > 0; i--) {
+    console.log(i);
+}
+
+  /*Question 3 Loops*/
+  for (var i = 10; i<= 20; i++) {
+    if (i % 2 !==0 ) {
+    console.log(i);
+}
+}
