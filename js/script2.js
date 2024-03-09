@@ -128,10 +128,50 @@ var username = "myusername";
 if (username.length >= 4 && username.length <= 10) {
     console.log("Acceptable username");
 } 
+else {
+    if (username.length < 4) 
+        console.log("Too few characters");
+    }
 
+    if (username.length > 10) {
+        console.log("Too many characters");
+    }
 
 /*Question 3*/
+var invoicePaid = true;
+var productDispatched = false;
+var customerHasSigned = false;
 
+if (invoicePaid === true && productDispatched === true && customerHasSigned ===true) {
+    console.log("Order complete");
+}
+else { 
+    if (invoicePaid !== true) 
+    console.log("Order NOT paid");
+}
+if (productDispatched !== true) {
+    console.log("Product NOT dispatched");
+}
+if (customerHasSigned !== true) {
+    console.log("Customer has NOT signed");
+}
 
 
 /*Question 4*/
+var invoicePaid = true;
+var productDispatched = false;
+var customerHasSigned = false;
+
+if (invoicePaid === true || productDispatched === true || customerHasSigned ===true) {
+    console.log("Order incomplete");
+}
+else { 
+    if (invoicePaid !== true) 
+    console.log("Order NOT paid");
+}
+if (productDispatched !== true) {
+    console.log("Product NOT dispatched");
+}
+if (customerHasSigned !== true) {
+    console.log("Customer has NOT signed");
+}
