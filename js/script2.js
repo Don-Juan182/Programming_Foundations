@@ -117,6 +117,7 @@ var suppliedName = "GERTRUDE";
 if (requiredName.toUpperCase() === suppliedName.toUpperCase()) {
     console.log("Equal");
 } 
+
 else {
     console.log("NOT Equal");
 }
@@ -162,16 +163,18 @@ var invoicePaid = true;
 var productDispatched = false;
 var customerHasSigned = false;
 
-if (invoicePaid === true || productDispatched === true || customerHasSigned ===true) {
+if (!invoicePaid || !productDispatched || !customerHasSigned) {
+   if (!invoicePaid) {
     console.log("Order incomplete");
 }
-else { 
-    if (invoicePaid !== true) 
-    console.log("Order NOT paid");
-}
-if (productDispatched !== true) {
+
+if (!productDispatched) {
     console.log("Product NOT dispatched");
 }
-if (customerHasSigned !== true) {
+if (!customerHasSigned) {
     console.log("Customer has NOT signed");
+}
+}
+else {
+    console.log("Order complete");
 }
