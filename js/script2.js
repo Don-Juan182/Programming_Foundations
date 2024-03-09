@@ -27,3 +27,10 @@ if (income >= maximumIncome) {
     } else if (income < maximumIncome) {
         console.log("Bellow maximum income");
     }
+
+   /*Question 4*/
+   var colour = "orange";
+
+if ((colour = "orange")) {
+    console.log("This colour is a bit rubbish");
+}
