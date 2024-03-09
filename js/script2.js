@@ -83,6 +83,11 @@ switch (dayOfTheWeek) {
     case 7:
     day = "Sunday";
     break;
+
+    default:
+        dayName = "Invalid day number"
+        break;
     }
+
 
     console.log(dayName)
