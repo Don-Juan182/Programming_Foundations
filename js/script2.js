@@ -108,3 +108,30 @@ for (var i = 0; i<= 7; i++) {
     console.log(i);
 }
 }
+
+/*MODULE 2*/
+/*Question 1*/
+var requiredName = "Gertrude";
+var suppliedName = "GERTRUDE";
+
+if (requiredName.toUpperCase() === suppliedName.toUpperCase()) {
+    console.log("Equal");
+} 
+else {
+    console.log("NOT Equal");
+}
+
+
+/*Question 2*/
+var username = "myusername";
+
+if (username.length >= 4 && username.length <= 10) {
+    console.log("Acceptable username");
+} 
+
+
+/*Question 3*/
+
+
+
+/*Question 4*/
