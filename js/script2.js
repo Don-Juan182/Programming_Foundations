@@ -41,3 +41,11 @@ var invoicePaid = false;
 if (invoicePaid === false) {
     console.log("Not paid");
 }
+
+/*Question 6*/
+var selectedNumber = 11;
+var winningNumber = "15";
+
+if (selectedNumber !== 15) {
+    console.log("You lose again");
+}
