@@ -17,3 +17,13 @@ console.log("Accepted");
 } else if (age < minimumAge) {
     console.log("Denied");
 }
+
+/*Question 3*/
+var income = "11.050";
+var maximumIncome = "13.075";
+
+if (income >= maximumIncome) {
+    console.log("maximum reached");
+    } else if (income < maximumIncome) {
+        console.log("Bellow maximum income");
+    }
