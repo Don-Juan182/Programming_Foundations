@@ -34,3 +34,10 @@ if (income >= maximumIncome) {
 if ((colour = "orange")) {
     console.log("This colour is a bit rubbish");
 }
+
+/*Question 5*/
+var invoicePaid = false;
+
+if (invoicePaid === false) {
+    console.log("Not paid");
+}
