@@ -23,7 +23,7 @@ var income = "11.050";
 var maximumIncome = "13.075";
 
 if (income >= maximumIncome) {
-    console.log("maximum reached");
+    console.log("maximum income reached");
     } else if (income < maximumIncome) {
         console.log("Bellow maximum income");
     }
