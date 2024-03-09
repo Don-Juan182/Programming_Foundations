@@ -49,3 +49,20 @@ var winningNumber = "15";
 if (selectedNumber !== 15) {
     console.log("You lose again");
 }
+
+/*Question 7*/
+var dayOfTheWeek = 2;
+var day;
+
+switch (dayOfTheWeek) {
+
+    case 1:
+    day = "Monday";
+    break;
+    case 2:
+    day = "Tuesday";
+    break;
+    default:
+     if (dayOfTheWeek >= 8)
+        day = "Invalid day number";
+      }
