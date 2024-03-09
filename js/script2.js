@@ -29,9 +29,9 @@ if (income >= maximumIncome) {
     }
 
    /*Question 4*/
-   var colour = "orange";
+   var colour = "blue";
 
-if ((colour = "orange")) {
+if (colour === "orange") {
     console.log("This colour is a bit rubbish");
 }
 
@@ -52,17 +52,37 @@ if (selectedNumber !== 15) {
 
 /*Question 7*/
 var dayOfTheWeek = 2;
-var day;
+var dayName;
 
 switch (dayOfTheWeek) {
 
     case 1:
-    day = "Monday";
+    dayName = "Monday";
     break;
+
     case 2:
     day = "Tuesday";
     break;
-    default:
-     if (dayOfTheWeek >= 8)
-        day = "Invalid day number";
-      }
+
+    case 3:
+    day = "Wednesday";
+    break;
+
+    case 4:
+    day = "Thursday";
+    break;
+
+    case 5:
+    day = "Friday";
+    break;
+
+    case 6:
+    day = "Saturday";
+    break;
+
+    case 7:
+    day = "Sunday";
+    break;
+    }
+
+    console.log(dayName)
