@@ -21,10 +21,12 @@ for (var i = 0; i < 4; i++) {
 
 /*Question 4*/
 var moreThings = [14, "cat", true, 29, "fox", true, 34, 19];
-console.log(moreThings[0]);
-console.log(moreThings[3]);
-console.log(moreThings[6]);
-console.log(moreThings[7]);
+for (var i = 0; i < moreThings.length; i++){
+var typeOfItem = typeof moreThings[i];
+if (typeOfItem === "number") {
+    console.log(moreThings[i]);
+}
+}
 
 
 /*Question 5*/
@@ -33,7 +35,9 @@ console.log(ingredients.sort());
 
 /*Question 6*/
 var characters = ["Gob", "Michael", "George Michael", "Lindsay", "Buster", "Maeby", "Tobias", "Lucille"];
-console.log(characters[1]);
-console.log(characters[3]);
-console.log(characters[5]);
-console.log(characters[7]);
+
+for (var i = 0; i < characters.length; i++) {
+if (i % 2 === 1) {
+    console.log(characters[i]);
+}
+}
