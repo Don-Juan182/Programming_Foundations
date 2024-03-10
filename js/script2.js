@@ -178,3 +178,29 @@ if (!customerHasSigned) {
 else {
     console.log("Order complete");
 }
+
+/*MODULE 2-lesson 2*/
+/*Question 1*/
+var winningNumbers = [1, 76, 2, 78, 16, 7];
+var listNumber = list [2]
+console.log(listNumber);
+
+/*Question 2*/
+var vegetables = ["rice", "potatoes", "porridge", "cake", "spinach"];
+vegetables.push("spaguetti");
+console.log(vegetables);
+
+
+/*Question 3*/
+
+
+
+/*Question 4*/
+
+
+
+/*Question 5*/
+
+
+
+/*Question 6*/
