@@ -147,3 +147,28 @@ var productContainer = document.querySelector("ul");
 for (var i = 0; i < products.length; i++) {
     productContainer.innerHTML += "<li>" + products[i].name + " - " + products[i].price + "</li>";
 }
+
+/*MODULE 2-lesson 4*/
+/*Question 1*/
+function logPhrase() {
+    console.log("What the func is this nonsense?");
+}
+
+logPhrase();
+
+/*Question 2*/
+
+
+/*Question 3*/
+
+
+/*Question 4*/
+
+
+/*Question 5*/
+
+
+/*Question 6*/
+
+
+/*Question 7*/
